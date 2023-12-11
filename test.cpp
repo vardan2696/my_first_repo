@@ -2,5 +2,8 @@
 using namespace std;
 
 int main(){
-  cout<<"Hello World\n";
+  string s;
+  cout<<"What is your name?\n";
+  cin>>s;
+  cout<<"Hello " <<s<<endl;
 }
